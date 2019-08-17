@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="../static/css/main.css" />
+    <script src="main.js"></script>
+    <title>SendIT</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="logo">
+            <h1>SendIT</h1>
+        </div>
+        <nav>
+            <ul>
+              <li><a href="../../index.html">Home</a></li>
+              <li><a href="../../index.html">Logout</a></li>
+              <li><a href="userprofile.html">My Profile</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <div class="container">
+        <div class="mymenu">
+            <ul>
+                <li><a href="create.html">Create Order</a></li>
+                <li><a href="orderdetails.html">View Order Details</a></li>
+                <li><a href="cancel.html">Cancel Order</a></li>
+                <li><a href="change.html">Change Destination</a></li>
+                <li><a href="allorders.html">All Orders</a></li>
+                <li><a href="orderdetails.html">Order Details</a></li>
+            </ul>
+        </div>
+        <div class="contents">
+          <form class="my-form">
+            <div class="form-group">
+              <h2>Change Parcel Delivery Order Destination</h2>
+            <div class="input-field">
+                    <label for="product_name">Tracker ID.</label>
+                    <input type="number" name="sender" id="sender_id" value=0710789776 >
+            </div>
+            <div class="input-field">
+                    <label for="quantitiy">Recipient</label>
+                    <input type="text" name="recipient" id="recipient_id" value="Zay" >
+            </div>
+            <div class="input-field">
+                <h2>Pickup Point</h2>
+                <select>
+                    <optgroup label="">
+                        <option value="1" selected="selected">Nairobi</option>
+                    </optgroup>
+                </select>
+            </div> 
+
+            <div class="input-field">
+                <h2>Destination</h2>
+                <select>
+                    <option value="1" selected="selected">Nairobi</option>
+                    <option value="2">Nakuru</option>
+                    <option value="3">Mombasa</option>
+                    <option value="4">Kisumu</option>
+                    <option value="5">Naivasha</option>
+                    <option value="6">Bomet</option>
+                    <option value="7">Narok</option>
+                    <option value="8">Mahi Mahiu</option>
+                    <option value="9">Thika</option>
+                    <option value="10">Meru</option>
+                </select>
+            </div>
+            <div class="input-field">
+                    <label for="items">Quantity</label>
+                    <input type="text" name="items" id="items" value="2" >
+            </div>
+            <div class="input-field">
+                <label for="weight">Weight</label>
+                <input type="text" name="weight" id="weight" value="15kg" >
+            </div>
+            <button class="mitbut" type="submit">Save Change</button>
+          </form>
+        </div>
+      </div>
+
+    <footer class="main-footer">
+        <p>SendIT &copy;2018 All Rights Reserved</p>
+    </footer>
+  </body>
+</html>
