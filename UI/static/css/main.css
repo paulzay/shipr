@@ -1,9 +1,10 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-body{
+
+body {
   background-color: white;
   color: #000000;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -12,25 +13,28 @@ body{
   line-height: 1.6em;
 }
 
-a{
-    text-decoration: none;
-    color: #0000;
-}
-a:hover{
-    color: navy;
-    background-color: white;
+a {
+  text-decoration: none;
+  color: #0000;
 }
 
-* ul li{
+a:hover {
+  color: navy;
+  background-color: white;
+}
+
+* ul li {
   list-style: none;
 }
-header{
-  background-color: navy;
+
+header {
+  background-color: #24292E;
   color: white;
   width: 100%;
   height: 100px;
 }
-.logo{
+
+.logo {
   text-align: center;
   font-weight: 900;
   text-transform: uppercase;
@@ -38,47 +42,53 @@ header{
   margin: 0 auto;
   padding: 20px 0;
 }
-nav ul{
+
+nav ul {
   display: block;
   margin: 0 auto;
   width: fit-content;
- 
+
 }
 
-nav ul li{
+nav ul li {
   display: inline-block;
-  float: left;
   padding: 0 7.5px;
 }
 
-nav ul li a{
+nav ul li a {
   color: white;
   text-transform: uppercase;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 14px;
   display: inline;
   font-weight: 100;
 }
 
-@media only screen and (min-width: 1000px){
-  header .logo{
-    margin: 37px 0;
+@media only screen and (min-width: 1000px) {
+  header {
+    width: 100%;
+    height: 65px;
+  }
+
+  header .logo {
+    margin: 20px 0;
     text-align: left;
-    padding-left: 40px;
+    padding-left: 60px;
     padding-top: 0px;
-    padding-bottom: 0px;
     float: left;
-   
   }
-  header nav{
+
+  header nav {
     float: right;
-    margin: 37px 0;
-    padding-right: 40px;
+    margin: 20px 0;
+    padding-right: 60px;
   }
-  header nav ul li a{
-    padding: 20px;
+
+  header nav ul li a {
+    padding: 0 10px;
   }
-  .submeat{
+
+  .submeat {
     background-color: navy;
     width: 20vw;
     color: #fff;
@@ -92,9 +102,11 @@ nav ul li a{
     border: none;
     margin-left: 50px;
   }
-  .submeat :hover{
+
+  .submeat :hover {
     transform: scale(0.9)
   }
+
   .signup-form input {
     display: block;
     width: 35%;
@@ -103,36 +115,38 @@ nav ul li a{
     text-align: center;
     outline: none;
     border-radius: 10px;
-    margin: 15px auto ;
+    margin: 15px auto;
     transition: 0.25s;
-  
+
   }
 
-  .signup-form input :focus{
+  .signup-form input :focus {
     width: 38%;
     border-color: #39F;
   }
-  footer{    
-    background-color:navy;
-    
+
+  footer {
+    background-color: navy;
     padding: 20px 20px;
     color: white;
-    text-align: center;  
+    text-align: center;
   }
 }
 
-.hero-section{
+.hero-section {
   width: 100%;
   height: calc(100vh - 100px);
-  
+
   background-image: url(/UI/static/images/File0020180.jpg);
   display: table;
 }
-.vertline{
- vertical-align: middle;
- display: table-cell;
+
+.vertline {
+  vertical-align: middle;
+  display: table-cell;
 }
-.hero-section p{
+
+.hero-section p {
   font-size: 18px;
   margin-top: 20px;
   margin-left: 30px;
@@ -141,20 +155,22 @@ nav ul li a{
   line-height: 30px;
   text-align-last: center;
 }
-.hero-section h1{
+
+.hero-section h1 {
   text-align: center;
   font-size: 60px;
   font-weight: 800;
   margin-top: 20px;
   text-transform: uppercase;
   line-height: 70px;
-  
+
 }
 
-.signup-form input :focus{
+.signup-form input :focus {
   width: 38%;
   border-color: #39F;
 }
+
 /*
 footer{    
   background-color:navy;
@@ -166,32 +182,36 @@ footer{
   
 }*/
 
-footer{   
+footer {
   background: navy;
   padding: 30px;
   width: 100%;
-  bottom: 0;   
+  bottom: 0;
   height: 380px;
-  
+
 }
-.footer-left{
-  
+
+.footer-left {
+
   width: 315px;
   height: auto;
   float: left;
 }
-.footer-right{
+
+.footer-right {
   width: 138px;
   height: auto;
   float: right;
 }
-.footer-box{
+
+.footer-box {
   width: 100%;
   height: auto;
   margin: auto;
-  margin-bottom: 30px;  
+  margin-bottom: 30px;
 }
-.footer-box h6{
+
+.footer-box h6 {
   font-size: 20px;
   color: #fff;
   margin: 0px;
@@ -199,39 +219,46 @@ footer{
   text-transform: uppercase;
   padding-bottom: 10px;
 }
-.footer-box ul{
+
+.footer-box ul {
   margin: 0;
   padding: 0;
   display: grid;
 }
-.footer-box ul li{
+
+.footer-box ul li {
   list-style: none;
   padding-top: 2px;
 }
-.footer-box ul li a{
+
+.footer-box ul li a {
   display: block;
   text-decoration: none;
   color: #fff;
   font-size: 10px;
   float: left;
 }
-.footer-boxx ul{
+
+.footer-boxx ul {
   margin: 0;
   padding: 0;
   display: grid;
 }
-.footer-boxx ul li{
+
+.footer-boxx ul li {
   list-style: none;
   padding-top: 2px;
 }
-.footer-boxx ul li a{
+
+.footer-boxx ul li a {
   display: block;
   text-decoration: none;
   color: #fff;
   font-size: 10px;
   float: right;
 }
-.footer-boxx h6{
+
+.footer-boxx h6 {
   font-size: 20px;
   color: #fff;
   margin: 0px;
@@ -239,19 +266,21 @@ footer{
   text-transform: uppercase;
   padding-bottom: 10px;
 }
-.footer-boxx{
+
+.footer-boxx {
   width: 100%;
   height: auto;
   margin: auto;
-  margin-bottom: 30px;  
+  margin-bottom: 30px;
 }
-.box{
+
+.box {
   margin-top: 350px;
   padding: 80px 40px;
   position: relative;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   background: #191919;
   text-align: center;
   width: 350px;
@@ -259,16 +288,16 @@ footer{
   border-radius: 24px;
 }
 
-.navbar li{
-    list-style: none;
-    text-decoration: none;
-    padding: 0%;
-    float: left;
+.navbar li {
+  list-style: none;
+  text-decoration: none;
+  padding: 0%;
+  float: left;
 }
 
 /* signup form */
 
-.submeat{
+.submeat {
   background-color: navy;
   width: 50%;
   color: #fff;
@@ -283,9 +312,11 @@ footer{
   border: none;
   display: block;
 }
-.submeat :hover{
+
+.submeat :hover {
   transform: scale(0.9);
 }
+
 .signup-form input {
   display: block;
   width: 50%;
@@ -294,45 +325,48 @@ footer{
   text-align: left;
   outline: none;
   border-radius: 6px;
-  margin: 15px auto ;
+  margin: 15px auto;
   border: 2px solid navy;
 }
 
-.signup-form h1{
+.signup-form h1 {
   text-align: center;
   font-size: 40px;
   margin: 20px;
   text-transform: uppercase;
 }
 
-.chequebox{
+.chequebox {
   margin: 8px 0;
 }
 
 
-.sign-up a{
-  color: #000000;
-  text-align: center;
-}
-.log-in a{
+.sign-up a {
   color: #000000;
   text-align: center;
 }
 
-.tracker-box{
+.log-in a {
+  color: #000000;
+  text-align: center;
+}
+
+.tracker-box {
   border: 3px solid black;
   padding: 20px;
   margin: 20px;
   background-color: dimgray;
 }
-.mymenu{
+
+.mymenu {
   border: 2px solid rgb(53, 52, 52);
   padding: 0px 0px;
   margin: 20px;
   top: 0px;
-  
+
 }
-.mymenu a{
+
+.mymenu a {
   color: white;
   text-transform: uppercase;
   text-decoration: none;
@@ -340,30 +374,35 @@ footer{
   display: inline;
   color: #000;
 }
-.mymenu a:hover{
+
+.mymenu a:hover {
   color: blueviolet;
 }
-.mymenu:hover
-.quote {
+
+.mymenu:hover .quote {
   margin-bottom: 60px;
 }
-.mymenu ul{
+
+.mymenu ul {
   margin: 0;
   padding: 0;
   list-style: none;
 }
-.mymenu li{
+
+.mymenu li {
   display: inline-block;
   margin-left: 50px;
   padding-top: 30px;
 }
+
 .box-shadow {
   background-color: #fff;
-  box-shadow: 0 1px 8px -3px rgba(0,0,0,0.5);
+  box-shadow: 0 1px 8px -3px rgba(0, 0, 0, 0.5);
   margin-top: 25px;
   padding: 25px 25px 50px;
   display: block;
 }
+
 .panel-header {
   position: relative;
   background-color: navy;
@@ -375,6 +414,7 @@ footer{
   line-height: 46px;
   display: block;
 }
+
 .quotitle {
   font-weight: 300;
   vertical-align: middle;
@@ -382,6 +422,7 @@ footer{
   padding-left: 5px;
   font-size: 22px;
 }
+
 .box-shadow .quoteform {
   margin-top: 50px;
 }
@@ -407,8 +448,8 @@ footer{
 
 
 label {
-    padding: 12px 12px 12px 0;
-    display: inline-block;
+  padding: 12px 12px 12px 0;
+  display: inline-block;
 }
 
 
@@ -432,7 +473,9 @@ optgroup {
   font-weight: bolder;
   display: block;
 }
-.material-textbox ~ .focus-border, .select2-container--above ~ .focus-border {
+
+.material-textbox~.focus-border,
+.select2-container--above~.focus-border {
   position: absolute;
   bottom: 0;
   left: 50%;
@@ -441,43 +484,54 @@ optgroup {
   background-color: #39F;
   transition: .4s;
 }
-table{
+
+table {
   margin-top: 9px;
   table-layout: fixed;
   border-collapse: collapse;
-  width:100%;
+  width: 100%;
 }
-tbody tr{
+
+tbody tr {
   padding: 18px;
-  height:33px;
+  height: 33px;
   text-align: center;
 }
-thead th:nth-child(1){
-  width: 20%;    
+
+thead th:nth-child(1) {
+  width: 20%;
 }
-thead th:nth-child(2){
-  width: 10%;    
+
+thead th:nth-child(2) {
+  width: 10%;
 }
-thead th:nth-child(3){
-  width: 10%;    
+
+thead th:nth-child(3) {
+  width: 10%;
 }
-thead th:nth-child(4){
-  width: 10%;    
+
+thead th:nth-child(4) {
+  width: 10%;
 }
-thead th:nth-child(5){
-  width: 10%;    
+
+thead th:nth-child(5) {
+  width: 10%;
 }
-tbody tr{
+
+tbody tr {
   padding: 18px;
-  height:33px;
+  height: 33px;
   text-align: center;
 }
-tbody tr:nth-child(odd){
+
+tbody tr:nth-child(odd) {
   background: #658b8b;
 }
-tbody tr:nth-child(even){
-  background: #666480  ;
+
+tbody tr:nth-child(even) {
+  background: #666480;
 }
-tbody tr:hover{
+
+tbody tr:hover {
   background: #fff;
 }
