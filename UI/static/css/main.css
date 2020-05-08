@@ -7,7 +7,7 @@
 body {
   background-color: white;
   color: #000000;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 16px;
   font-weight: normal;
   line-height: 1.6em;
@@ -18,13 +18,12 @@ a {
   color: #0000;
 }
 
-
 * ul li {
   list-style: none;
 }
 
 header {
-  background-color: #24292E;
+  background-color: #24292e;
   color: white;
   width: 100%;
   height: 100px;
@@ -43,7 +42,6 @@ nav ul {
   display: block;
   margin: 0 auto;
   width: fit-content;
-
 }
 
 nav ul li {
@@ -61,7 +59,6 @@ nav ul li a {
 }
 
 @media only screen and (min-width: 1000px) {
-
   /* navbar section*/
   header {
     width: 100%;
@@ -87,14 +84,15 @@ nav ul li a {
   }
 
   header nav ul li a:hover {
-    color: #4CAF50;
+    color: #4caf50;
   }
 
   /* hero section*/
   .hero-section {
     width: 100%;
     height: calc(100vh - 65px);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/UI/static/images/josh-withers-GGw1tdmyxgs-unsplash.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(/UI/static/images/josh-withers-GGw1tdmyxgs-unsplash.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -121,7 +119,6 @@ nav ul li a {
     margin-bottom: 20px;
   }
 
-
   @keyframes text {
     0% {
       margin-bottom: -40px;
@@ -129,7 +126,7 @@ nav ul li a {
   }
 
   .hero-section p {
-    color: #4CAF50;
+    color: #4caf50;
     font-size: 40px;
     font-style: italic;
     line-height: 30px;
@@ -138,9 +135,8 @@ nav ul li a {
   }
 
   .hero-section .btn {
-    background-color: #4CAF50;
-    border: 0.5px solid #4CAF50;
-    border-radius: 5px;
+    background-color: #4caf50;
+    border: 2px solid #fff;
     color: white;
     padding: 15px 32px;
     text-align: center;
@@ -153,7 +149,7 @@ nav ul li a {
 
   .hero-section .btn:hover {
     background-color: #fff;
-    color: #4CAF50;
+    color: #4caf50;
   }
 
   footer {
@@ -194,7 +190,6 @@ nav ul li a {
     display: inline;
     font-weight: 100;
   }
-
 }
 
 .submeat {
@@ -213,7 +208,7 @@ nav ul li a {
 }
 
 .submeat :hover {
-  transform: scale(0.9)
+  transform: scale(0.9);
 }
 
 .signup-form input {
@@ -226,12 +221,11 @@ nav ul li a {
   border-radius: 10px;
   margin: 15px auto;
   transition: 0.25s;
-
 }
 
 .signup-form input :focus {
   width: 38%;
-  border-color: #39F;
+  border-color: #39f;
 }
 
 /*
@@ -242,7 +236,6 @@ footer {
   text-align: center;
 }
 */
-
 
 /*
 .hero-section {
@@ -280,7 +273,7 @@ footer {
 */
 .signup-form input :focus {
   width: 38%;
-  border-color: #39F;
+  border-color: #39f;
 }
 
 .box {
@@ -349,7 +342,6 @@ footer {
   margin: 8px 0;
 }
 
-
 .sign-up a {
   color: #000000;
   text-align: center;
@@ -372,7 +364,6 @@ footer {
   padding: 0px 0px;
   margin: 20px;
   top: 0px;
-
 }
 
 .mymenu a {
@@ -436,7 +427,6 @@ footer {
   margin-top: 50px;
 }
 
-
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -453,16 +443,10 @@ footer {
   margin-bottom: 1rem;
 }
 
-
-
-
 label {
   padding: 12px 12px 12px 0;
   display: inline-block;
 }
-
-
-
 
 .textbox {
   border: 0;
@@ -477,21 +461,20 @@ label {
   padding: 0;
 }
 
-
 optgroup {
   font-weight: bolder;
   display: block;
 }
 
-.material-textbox~.focus-border,
-.select2-container--above~.focus-border {
+.material-textbox ~ .focus-border,
+.select2-container--above ~ .focus-border {
   position: absolute;
   bottom: 0;
   left: 50%;
   width: 0;
   height: 2px;
-  background-color: #39F;
-  transition: .4s;
+  background-color: #39f;
+  transition: 0.4s;
 }
 
 table {
