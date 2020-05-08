@@ -190,6 +190,49 @@ nav ul li a {
     display: inline;
     font-weight: 100;
   }
+
+  /*signup section*/
+  .account-info {
+    width: 400px;
+  }
+  .names ul li {
+    display: inline-block;
+  }
+  .names {
+    border-radius: 4px;
+    border: 1px solid #dadfe2;
+    color: #5f6c72;
+    font-family: Open Sans, Helvetica, arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22.4px;
+    margin: 0 0 15px;
+    outline: none;
+    padding: 12px;
+    width: 100%;
+  }
+  .acc-info {
+    border-radius: 4px;
+    border: 1px solid #dadfe2;
+    color: #5f6c72;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22.4px;
+    margin: 0 0 15px;
+    outline: none;
+    padding: 12px;
+    width: 100%;
+  }
+  .sub-btn {
+    width: 100%;
+  }
+  form {
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: none;
+  }
 }
 
 .submeat {
@@ -209,18 +252,6 @@ nav ul li a {
 
 .submeat :hover {
   transform: scale(0.9);
-}
-
-.signup-form input {
-  display: block;
-  width: 35%;
-  padding: 0 16px;
-  height: 44px;
-  text-align: center;
-  outline: none;
-  border-radius: 10px;
-  margin: 15px auto;
-  transition: 0.25s;
 }
 
 .signup-form input :focus {
