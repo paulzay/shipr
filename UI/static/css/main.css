@@ -192,51 +192,13 @@ nav ul li a {
   }
 
   /*signup section*/
-  .account-info {
-    width: 400px;
-  }
-  .names ul li {
-    display: inline-block;
-  }
-  .names {
-    border-radius: 4px;
-    border: 1px solid #dadfe2;
-    color: #5f6c72;
-    font-family: Open Sans, Helvetica, arial, sans-serif;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 22.4px;
-    margin: 0 0 15px;
-    outline: none;
-    padding: 12px;
-    width: 100%;
-  }
-  .acc-info {
-    border-radius: 4px;
-    border: 1px solid #dadfe2;
-    color: #5f6c72;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 22.4px;
-    margin: 0 0 15px;
-    outline: none;
-    padding: 12px;
-    width: 100%;
-  }
-  .sub-btn {
-    width: 100%;
-  }
-  form {
-    background-color: red;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    border: none;
+  .cred {
+    text-align: center;
   }
 }
 
 .submeat {
-  background-color: navy;
+  background-color: #ffffff;
   width: 20vw;
   color: #fff;
   border-radius: 50px;
@@ -248,15 +210,6 @@ nav ul li a {
   transition: 0.8s;
   border: none;
   margin-left: 50px;
-}
-
-.submeat :hover {
-  transform: scale(0.9);
-}
-
-.signup-form input :focus {
-  width: 38%;
-  border-color: #39f;
 }
 
 /*
@@ -330,9 +283,9 @@ footer {
 
 /* signup form */
 
-.submeat {
-  background-color: navy;
-  width: 50%;
+.sub-btn {
+  background-color: #4caf50;
+  width: 30%;
   color: #fff;
   border-radius: 6px;
   padding: 10px;
@@ -344,6 +297,7 @@ footer {
   margin: 40px auto;
   border: none;
   display: block;
+  border: 1px solid #dadfe2;
 }
 
 .submeat :hover {
@@ -352,14 +306,14 @@ footer {
 
 .signup-form input {
   display: block;
-  width: 50%;
+  width: 30%;
   padding: 0 16px;
   height: 44px;
   text-align: left;
   outline: none;
   border-radius: 6px;
   margin: 15px auto;
-  border: 2px solid navy;
+  border: 2px solid #dadfe2;
 }
 
 .signup-form h1 {
