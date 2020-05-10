@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: white;
+  background-color: #F1F4F5;
   color: #000000;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 16px;
@@ -59,6 +59,7 @@ nav ul li a {
 }
 
 @media only screen and (min-width: 1000px) {
+
   /* navbar section*/
   header {
     width: 100%;
@@ -98,15 +99,6 @@ nav ul li a {
     background-size: cover;
   }
 
-  .text {
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-  }
-
   .hero-section h1 {
     text-align: center;
     font-size: 60px;
@@ -119,12 +111,22 @@ nav ul li a {
     margin-bottom: 20px;
   }
 
+  .text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+
+  /*
   @keyframes text {
     0% {
       margin-bottom: -40px;
     }
   }
-
+*/
   .hero-section p {
     color: #4caf50;
     font-size: 40px;
@@ -192,8 +194,82 @@ nav ul li a {
   }
 
   /*signup section*/
-  .cred {
+
+  .sub-btn {
+    background-color: #4caf50;
+    width: 90%;
+    height: 45px;
+    color: #fff;
+    border-radius: 6px;
+    padding: 10px;
+    font-size: 18px;
+    margin: 50px auto;
+    cursor: pointer;
+    transition: 0.8s;
+    margin: 40px auto;
+    border: none;
+    display: block;
+    border: 1px solid #dadfe2;
+  }
+
+  .sub-btn:hover {
+    background-color: #fff;
+    color: #4caf50;
+  }
+
+  .log-forms {
+    margin-top: 40px;
+    background-color: #fff;
+    width: 40%;
+    height: fit-content;
+    margin-left: 33.3%;
+    padding: 20px;
+    border-radius: 6px;
+  }
+
+  .signup-form input {
+    display: block;
+    width: 90%;
+    padding: 0 12px;
+    height: 45px;
+    text-align: left;
+    outline: none;
+    border-radius: 6px;
+    margin: 15px auto;
+    border: 2px solid #dadfe2;
+  }
+
+  .signup-form h1 {
     text-align: center;
+    font-size: 40px;
+    margin: 20px;
+    font-weight: 600;
+    letter-spacing: -1px;
+    padding-bottom: 20px;
+    color: #666;
+  }
+
+  /*
+  #lock {
+    background-image: url(/UI/static/images/lock.png) no-repeat;
+    width: 90%;
+    height: 45px;
+  }
+*/
+  .cred-text {
+    text-align: center;
+
+  }
+
+  .cred-text p {
+    font-size: 15px;
+    line-height: 2.2em;
+    color: rgb(126, 140, 153);
+  }
+
+  .cred-text a {
+    color: blue;
+    cursor: pointer;
   }
 }
 
@@ -255,10 +331,6 @@ footer {
 
 }
 */
-.signup-form input :focus {
-  width: 38%;
-  border-color: #39f;
-}
 
 .box {
   margin-top: 350px;
@@ -283,45 +355,10 @@ footer {
 
 /* signup form */
 
-.sub-btn {
-  background-color: #4caf50;
-  width: 30%;
-  color: #fff;
-  border-radius: 6px;
-  padding: 10px;
-  font-size: 18px;
-  margin: 50px auto;
-  box-sizing: border-box;
-  cursor: pointer;
-  transition: 0.8s;
-  margin: 40px auto;
-  border: none;
-  display: block;
-  border: 1px solid #dadfe2;
-}
-
 .submeat :hover {
   transform: scale(0.9);
 }
 
-.signup-form input {
-  display: block;
-  width: 30%;
-  padding: 0 16px;
-  height: 44px;
-  text-align: left;
-  outline: none;
-  border-radius: 6px;
-  margin: 15px auto;
-  border: 2px solid #dadfe2;
-}
-
-.signup-form h1 {
-  text-align: center;
-  font-size: 40px;
-  margin: 20px;
-  text-transform: uppercase;
-}
 
 .chequebox {
   margin: 8px 0;
@@ -451,8 +488,8 @@ optgroup {
   display: block;
 }
 
-.material-textbox ~ .focus-border,
-.select2-container--above ~ .focus-border {
+.material-textbox~.focus-border,
+.select2-container--above~.focus-border {
   position: absolute;
   bottom: 0;
   left: 50%;
