@@ -93,7 +93,7 @@ nav ul li a {
     width: 100%;
     height: calc(100vh - 65px);
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url(/UI/static/images/josh-withers-GGw1tdmyxgs-unsplash.jpg);
+      url(../images/josh-withers-GGw1tdmyxgs-unsplash.jpg);
     background-position: 0 100%;
     background-repeat: no-repeat;
     background-size: cover;
