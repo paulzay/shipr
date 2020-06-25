@@ -12,7 +12,7 @@ Shipr is a courier service that helps users deliver parcels to different destina
 
 ## Live Demo
 
-[Live Demo Link](https://the-next-web.now.sh/)
+[Live Demo Link](https://paulzay.github.io/shipr/)
 
 
 ## Getting Started
